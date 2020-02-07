@@ -1,7 +1,7 @@
 const express = require("express");
 const request = require("request");
 const bodyParser = require("body-parser");
-const path = require("path");
+const now = new Date().toLocaleTimeString();
 
 const app = express();
 app.use(express.static("public"));
